@@ -29,7 +29,7 @@ steps:
   displayName: Ensure prereqs
 
 - bash: |
-  $PYTHON -m tox
-displayName: run tox
+    $PYTHON -m tox
+  displayName: Run tox
 
 ...
